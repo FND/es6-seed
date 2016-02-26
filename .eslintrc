@@ -5,41 +5,41 @@ parserOptions:
     sourceType: module
 rules:
     linebreak-style:
-    - 2
+    - error
     - unix
     indent:
-    - 2
+    - error
     - tab
     max-len:
-    - 1
+    - warn
     - 90
     - 4
     quotes:
-    - 2
+    - error
     - double
     - avoid-escape
     semi:
-    - 2
+    - error
     - always
     no-var:
-    - 2
+    - error
     no-console:
-    - 1
+    - warn
     space-before-function-paren:
-    - 2
+    - error
     - never
     keyword-spacing:
-    - 2
+    - error
     - overrides:
         if: { after: false }
         for: { after: false }
         while: { after: false }
     operator-linebreak:
-    - 2
+    - error
     - after
     dot-location:
-    - 2
+    - error
     - object
     arrow-parens:
-    - 2
+    - error
     - as-needed
