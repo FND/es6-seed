@@ -4,9 +4,9 @@
 let path = require("path");
 
 module.exports = {
-	entry: "./index.js",
+	entry: path.resolve("./index.js"),
 	output: {
-		path: path.join(__dirname, "dist"),
+		path: path.resolve("./dist"),
 		filename: "bundle.js"
 	},
 	resolve: {
