@@ -15,8 +15,7 @@ module.exports = {
 	module: {
 		loaders: [{
 			loader: "babel-loader",
-			query: {
-				presets: ["es2015"],
+			query: { // also see `package.json`
 				cacheDirectory: true
 			}
 		}]
