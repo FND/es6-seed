@@ -10,7 +10,8 @@ module.exports = {
 		filename: "bundle.js"
 	},
 	resolve: {
-		root: path.resolve("./node_modules")
+		root: path.resolve("./node_modules"),
+		extensions: ["", ".js", ".jsx"]
 	},
 	module: {
 		loaders: [{

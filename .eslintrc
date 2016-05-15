@@ -1,8 +1,12 @@
-extends: standard
+extends:
+- standard
+- plugin:react/recommended
 env:
     es6: true
 parserOptions:
     sourceType: module
+plugins:
+- react
 rules:
     linebreak-style:
     - error
@@ -21,6 +25,9 @@ rules:
     semi:
     - error
     - always
+    jsx-quotes:
+    - error
+    - prefer-double
     no-var:
     - error
     no-console:
