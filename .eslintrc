@@ -45,6 +45,7 @@ rules:
         for: { after: false }
         while: { after: false }
         switch: { after: false }
+        catch: { after: false }
     operator-linebreak:
     - error
     - after
