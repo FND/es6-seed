@@ -1,23 +1,6 @@
 /* eslint-env node */
 "use strict";
 
-let path = require("path");
+let generateConfig = require("es6-transpiler-config");
 
-module.exports = {
-	entry: path.resolve("./index.js"),
-	output: {
-		path: path.resolve("./dist"),
-		filename: "bundle.js"
-	},
-	resolve: {
-		root: path.resolve("./node_modules")
-	},
-	module: {
-		loaders: [{
-			loader: "babel-loader",
-			query: { // also see `package.json`
-				cacheDirectory: true
-			}
-		}]
-	}
-};
+module.exports = generateConfig("./index.js", "./dist/bundle.js");
