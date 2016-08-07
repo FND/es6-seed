@@ -10,6 +10,8 @@ Getting Started
 
 * ensure [Node](http://nodejs.org) is installed
 * plant the seed, either by
+    * using a simple
+      [bootstrap script](https://gist.github.com/FND/dfc79dc06159233d26f841cf9c98bafa)
     * cloning this repository or manually copying its contents
     * setting up your repository to track this one as an alternative remote
       (which makes it easy to synchronize updates later):
